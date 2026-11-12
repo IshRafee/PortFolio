@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t1 d1">
+  <title id="t1">En-Queue Fall 24 Anchoring</title>
+  <desc id="d1">Live stage hosting and orientation for En-Queue Fall 2024</desc>
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2456"/>
+      <stop offset="100%" stop-color="#18152e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7161ef"/>
+      <stop offset="100%" stop-color="#aee7d5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg1)"/>
+  <circle cx="530" cy="90" r="140" fill="#7161ef" opacity="0.18"/>
+  <circle cx="110" cy="320" r="160" fill="#aee7d5" opacity="0.12"/>
+  
+  <!-- Spotlight Cone -->
+  <polygon points="320,0 120,400 520,400" fill="#ffffff" opacity="0.04"/>
+  
+  <!-- Microphone & Tech graphic -->
+  <g transform="translate(320,135)">
+    <!-- Mic head -->
+    <rect x="-24" y="-55" width="48" height="66" rx="24" fill="#ffffff" opacity="0.95"/>
+    <line x1="-24" y1="-32" x2="24" y2="-32" stroke="#7161ef" stroke-width="2.5"/>
+    <line x1="-24" y1="-18" x2="24" y2="-18" stroke="#7161ef" stroke-width="2.5"/>
+    <path d="M-36,-24 C-36,22 36,22 36,-24" fill="none" stroke="#aee7d5" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="0" y1="24" x2="0" y2="52" stroke="#aee7d5" stroke-width="4.5"/>
+    <line x1="-22" y1="52" x2="22" y2="52" stroke="#aee7d5" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Sound waves -->
+    <path d="M-52,-38 C-68,-10 -68,10 -52,38" fill="none" stroke="#7161ef" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <path d="M52,-38 C68,-10 68,10 52,38" fill="none" stroke="#7161ef" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  
+  <!-- Badge -->
+  <rect x="235" y="222" width="170" height="28" rx="14" fill="#7161ef" opacity="0.3"/>
+  <rect x="236" y="223" width="168" height="26" rx="13" fill="none" stroke="#7161ef" stroke-width="1.5"/>
+  <text x="320" y="241" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#aee7d5" letter-spacing="2">BUCC · FALL 2024</text>
+  
+  <!-- Event Title -->
+  <text x="320" y="295" text-anchor="middle" font-family="'Manrope', Arial, sans-serif" font-size="32" font-weight="800" fill="#ffffff">En-Queue Fall '24</text>
+  <text x="320" y="326" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="500" fill="#b9b4d8">Flagship Orientation · Master of Ceremonies</text>
+  
+  <!-- Photo replacement hint -->
+  <rect x="200" y="352" width="240" height="26" rx="8" fill="#ffffff" opacity="0.08"/>
+  <text x="320" y="369" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-size="11" font-weight="600" fill="#8f8bb3">📷 Photo Placeholder · Replace with JPG</text>
+</svg>
